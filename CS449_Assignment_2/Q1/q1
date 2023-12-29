@@ -1,0 +1,8 @@
+This assignment has been a lot more than expected in terms of difficulty. 
+I created 2 shell scripts to install all necessary packages and then produce an exscutable vprog32. I have two variants. 
+One for a dbugger to get the necessary addresses that gives vprog_gdb which allows you to gdb set up necessary breakpoints and read assembler code.
+The other is the general file vprog32 for reading the badfile and holds the buffer overflow exploit.
+In the debugger I set a breakpoint at foo using b foo. Then I did run and continue until it hit a segmentation fault.
+I did x/200x $esp to see the memory dump and used it to find the values for XXXX, YYYY, and ZZZZ.
+I never got the buffer overflow to trigger correctly, but I did keep the code with the variables defined. 
+For some reason no matter what I set the variables to it was either 1 bit to high, or low to trigger the exploit.

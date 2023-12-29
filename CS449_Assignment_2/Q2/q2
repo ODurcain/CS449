@@ -1,0 +1,2 @@
+I was getting an error once I got to the point of trying to do build compose up. I was unable to continue.
+It appears that the only difference that was causing issues were me running WSL instead of a true Ubuntu VM.
